@@ -4,11 +4,11 @@ Assignment 2: Flexible user interface with Javascript
 ### Readme Checklista för Frågesportapplikation med Fetch API
 
 1. **Anslutning till servern med Fetch API**
-   - [ ] Implementera Fetch API för att ansluta till servern.
-   - [ ] Alla endpoints för API:et finns på [https://da-demo.github.io/](https://da-demo.github.io/).
+   - [x] Implementera Fetch API för att ansluta till servern. Marcus
+   - [x] Alla endpoints för API:et finns på [https://da-demo.github.io/](https://da-demo.github.io/).
 
 2. **Visa frågor och svarsalternativ för användaren**
-   - [ ] Visa en fråga och dess tillhörande svarsalternativ (Fråga, A, B, C, D).
+   - [ ] Visa en fråga och dess tillhörande svarsalternativ (Fråga, A, B, C, D). Johanna
    
 3. **Användarinteraktion för att välja svarsalternativ**
    - [ ] Användaren kan välja ett svarsalternativ.
@@ -25,11 +25,11 @@ Assignment 2: Flexible user interface with Javascript
    - [ ] Användaren kan starta om frågesporten för att besvara tio nya frågor.
 
 7. **Statistik på startsidan**
-   - [ ] Statistik visas på startsidan för hur många frågor som besvarats, hur många som är rätt och hur många som är fel.
-   - [ ] Statistiken uppdateras i realtid när användaren besvarar frågor.
+   - [ ] Statistik visas på startsidan för hur många frågor som besvarats, hur många som är rätt och hur många som är fel. Marcus
+   - [ ] Statistiken uppdateras i realtid när användaren besvarar frågor. Marcus
 
 8. **Lokal lagring av statistik**
-   - [ ] Statistiken sparas i localStorage så att den är kvar när sidan laddas om.
+   - [ ] Statistiken sparas i localStorage så att den är kvar när sidan laddas om. Marcus
 
 ### Övriga Punkter
    - [ ] Dokumentera koden och dess funktioner för ökad förståelse.
