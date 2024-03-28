@@ -8,15 +8,15 @@ Assignment 2: Flexible user interface with Javascript
    - [x] Alla endpoints för API:et finns på [https://da-demo.github.io/](https://da-demo.github.io/).
 
 2. **Visa frågor och svarsalternativ för användaren**
-   - [ ] Visa en fråga och dess tillhörande svarsalternativ (Fråga, A, B, C, D). Johanna
+   - [x] Visa en fråga och dess tillhörande svarsalternativ (Fråga, A, B, C, D). Johanna,Johannes
    
 3. **Användarinteraktion för att välja svarsalternativ**
-   - [ ] Användaren kan välja ett svarsalternativ.
-   - [ ] Användaren får feedback om svaret var rätt eller fel.
+   - [x] Användaren kan välja ett svarsalternativ.
+   - [x] Användaren får feedback om svaret var rätt eller fel. Johanna, Johannes
 
 4. **Hantering av frågeflödet**
    - [ ] Användaren kan gå vidare till nästa fråga efter att ha valt ett svarsalternativ.
-   - [ ] Användaren kan se sitt resultat när tio frågor är besvarade.
+   - [ ] Användaren kan se sitt resultat när tio frågor är besvarade. Johanna
 
 5. **Resultatvisning**
    - [ ] Användaren kan se sitt resultat (antal rätt och fel) när tio frågor är besvarade.

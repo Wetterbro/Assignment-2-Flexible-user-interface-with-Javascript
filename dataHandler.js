@@ -1,11 +1,11 @@
-export async function fetchQuestionsi(){
+export async function fetchQuestions(){
     let response =  await fetch("https://da-demo.github.io/api/futurama/questions/");
     const questions = await response.json();
     return questions
 }
 
 export async function getRandomQuestions(amount){
-    const questions = await fetchQuestionsi();
+    const questions = await fetchQuestions();
     
     if (!questions) {
         return null;
