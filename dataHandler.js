@@ -1,12 +1,13 @@
-export async function fetchQuestions(){
-    let response =  await fetch("https://da-demo.github.io/api/futurama/questions/");
+export async function fetchQuestions() {
+    let response = await fetch("https://da-demo.github.io/api/futurama/questions/");
     const questions = await response.json();
     return questions
 }
 
-export async function getRandomQuestions(amount){
+// Function to get random questions, takes an amount of questions as an argument
+export async function getRandomQuestions(amount) {
     const questions = await fetchQuestions();
-    
+
     if (!questions) {
         return null;
     }
