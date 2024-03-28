@@ -1,5 +1,8 @@
 export async function fetchQuestions() {
     let response = await fetch("https://da-demo.github.io/api/futurama/questions/");
+    if (!response.ok) {
+        return null;
+    }
     const questions = await response.json();
     return questions
 }
